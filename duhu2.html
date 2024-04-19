@@ -1,11 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desley</title>
-    <link rel="stylesheet" href="duhu.css">
+    <title>Temperatuurmetingen</title>
+    <link rel="stylesheet" href="duhu2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Temperatuurmetingen</h1>
+        <div class="chart-container">
+            <canvas id="temperature-chart"></canvas>
+        </div>
+        <div class="meters">
+            <div class="meter" id="meter1">
+                <h2>Temperatuurmeter 1</h2>
+                <div class="value">0°C</div>
+            </div>
+            <div class="meter" id="meter2">
+                <h2>Temperatuurmeter 2</h2>
+                <div class="value">0°C</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="duhu2.js"></script>
 </body>
 </html>
